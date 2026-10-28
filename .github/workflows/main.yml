@@ -1,4 +1,4 @@
-name: Build Daily Life Pro APK
+ APK
 
 on:
   push:
@@ -308,3 +308,4 @@ jobs:
                 <label>${f.desc}</label>
                 <strong style="color:${col}">${f.amount.toLocaleString()} ကျပ်</strong>
                 <button class="btn-sec" style="padding:3px 8px" onclick="delFin(${f.id})">×</butto
+                
